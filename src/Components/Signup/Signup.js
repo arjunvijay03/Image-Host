@@ -2,7 +2,7 @@ import React, {useContext, useState} from 'react'
 import { firebaseContext } from '../../Contexts/FirebaseContext'
 import './Signup.css'
 import { useNavigate, Link } from 'react-router-dom'
-// import firebase from 'firebase/compat'
+
 function Signup() {
     const {firebase} = useContext(firebaseContext)
     const navigate = useNavigate()
