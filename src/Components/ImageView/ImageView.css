@@ -1,0 +1,32 @@
+.imageViewwapper{
+    width: 100vw;
+    min-height: 100vh;
+    margin-top: 70px;
+}
+.imgviewcontainer{
+    width: 100%;
+    height: 80vh;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    padding-inline: 5px;
+
+}
+.imgviewcontainer img{
+    width: 100%;
+    object-fit: contain;
+
+}
+.imagDiscriptionContainer{
+    width: 100%;
+    padding-inline: 10px;
+    
+    padding-top: 20px;
+    
+}
+.imagDiscriptionContainer p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Great Vibes', cursive;
+
+}
